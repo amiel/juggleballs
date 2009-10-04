@@ -116,7 +116,8 @@ class Step
   def tag_opts(options = {})
     image_setup
     
-    default_options = { :id => "step_#{@step}_pic", :size => "#{@width}x#{@height}", :alt => "Image for step #{to_i}. We appologize to anyone who cannot see these images, we may have more descriptive text here in the future." }
+# , :size => "#{@width}x#{@height}"
+    default_options = { :id => "step_#{@step}_pic", :alt => "Image for step #{to_i}. We appologize to anyone who cannot see these images, we may have more descriptive text here in the future." }
     options = default_options.merge options
   end
 
@@ -125,6 +126,7 @@ class Step
   end
 
   def image_setup
+		return # now RMagick for you
     if self.has_image?
       calculate_image_size
     else
