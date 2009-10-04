@@ -1,8 +1,8 @@
-require 'RMagick'
+# require 'RMagick'
 
 # class methods and constants
 class Step
-  include Magick
+  # include Magick
 
   ABSOLUTE_DIR = "#{RAILS_ROOT}/public/images/steps"
   RELATIVE_DIR = "steps"
