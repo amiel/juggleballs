@@ -1,0 +1,12 @@
+<h1>Site Map</h1>
+<ul id="links">
+	<li><%= link_to "Home", :action => 'index' %></li>
+	<li><%= link_to "Materials List", :action => 'materials' %></li>
+	<li class="s">Step: <% Step.each do |s| %>
+		<%= link_to "#{s.to_i}", :action => 'step', :id => s.to_param %> &nbsp;
+	<% end %></li>
+	<li><%= link_to "View All", :action => 'all' %></li>
+	<li><%= link_to "Comments", :controller => 'comments' %></li>
+	<li><%= link_to "Links", :action => 'links' %></li>
+	<li><%= link_to "Site Map", :action => 'site_map' %></li>
+</ul>

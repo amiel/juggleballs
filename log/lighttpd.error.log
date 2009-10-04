@@ -1,0 +1,142 @@
+2007-03-02 18:10:01: (log.c.75) server started 
+2007-03-02 19:46:39: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:24: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:24: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:24: warning: parenthesize argument(s) for future version
+ 
+2007-03-02 19:46:39: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-02 21:29:32: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+ 
+2007-03-02 21:29:32: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-02 21:40:56: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+ 
+2007-03-02 21:40:56: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-02 21:41:47: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+ 
+2007-03-02 21:41:47: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-02 22:56:49: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+ 
+2007-03-02 22:56:49: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-02 22:57:16: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+ 
+2007-03-02 22:57:16: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-02 23:44:10: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+ 
+2007-03-02 23:44:10: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-03 00:35:53: (server.c.1238) [note] graceful shutdown started 
+2007-03-03 00:35:53: (log.c.135) server stopped 
+2007-03-04 20:06:03: (log.c.75) server started 
+2007-03-04 20:11:09: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+ 
+2007-03-04 20:11:09: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-04 20:57:26: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+ 
+2007-03-04 20:57:26: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-04 21:10:28: (server.c.1238) [note] graceful shutdown started 
+2007-03-04 21:10:28: (log.c.135) server stopped 
+2007-03-04 21:10:35: (log.c.75) server started 
+2007-03-04 21:10:49: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+ 
+2007-03-04 21:10:49: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-04 21:14:46: (server.c.1238) [note] graceful shutdown started 
+2007-03-04 21:14:46: (log.c.135) server stopped 
+2007-03-04 21:41:16: (log.c.75) server started 
+2007-03-04 21:46:31: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+ 
+2007-03-04 21:46:31: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 10:21:19: (server.c.1238) [note] graceful shutdown started 
+2007-03-05 10:21:19: (log.c.135) server stopped 
+2007-03-05 16:23:10: (log.c.75) server started 
+2007-03-05 16:23:43: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:22: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 16:23:43: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:02:20: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:02:20: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:15:21: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:15:21: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:15:30: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:15:30: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:17:57: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:17:57: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:20:35: (server.c.1238) [note] graceful shutdown started 
+2007-03-05 17:20:35: (log.c.135) server stopped 
+2007-03-05 17:20:41: (log.c.75) server started 
+2007-03-05 17:20:55: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:20:55: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:26:33: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:26:33: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:33:52: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:33:52: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:35:16: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:35:16: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:35:54: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:35:54: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:36:24: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:36:24: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 17:55:00: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:25: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 17:55:00: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 18:06:19: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:23: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 18:06:19: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 18:08:36: (mod_fastcgi.c.2502) FastCGI-stderr: /Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:24: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:24: warning: parenthesize argument(s) for future version
+/Users/amiel/Sites/amielmartin/juggleballs/public/../config/../app/views/comments/index.rhtml:24: warning: parenthesize argument(s) for future version
+ 
+2007-03-05 18:08:36: (mod_fastcgi.c.2502) FastCGI-stderr:  
+2007-03-05 18:47:22: (server.c.1238) [note] graceful shutdown started 
+2007-03-05 18:47:22: (log.c.135) server stopped 

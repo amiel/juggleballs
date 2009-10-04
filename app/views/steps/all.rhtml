@@ -1,0 +1,13 @@
+
+<% @imgs.each do |img| %>
+<div class="step" id="step_<%= img.step %>">
+<h1><%= link_to "Step #{img.to_i}", :action => 'step', :id => img.to_param %></h1>
+<%= 
+  	begin
+		render :partial => "step_#{img.to_param}", :locals => { :img => img }
+	rescue ActionView::ActionViewError
+  		render :partial => "generic", :locals => { :img => img }
+	end
+%>
+</div>
+<% end %>

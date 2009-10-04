@@ -1,0 +1,9 @@
+<div class="step" id="step_<%= @img.step %>">
+	<%= 
+	  	begin
+			render :partial => "step_#{@img.to_param}", :locals => { :img => @img }
+		rescue ActionView::ActionViewError
+	  		render :partial => "generic", :locals => { :img => @img }
+		end
+	%>
+</div>
