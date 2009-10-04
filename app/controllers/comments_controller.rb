@@ -9,7 +9,7 @@ class CommentsController < ApplicationController
   def index
     @title = "Comments -- Juggle Ball Pattern"
     
-    @comment_pages, @comments = paginate :comments, :per_page => 10, :order => 'created_at DESC'
+    @comments = Comment.all :order => 'created_at DESC'
     
     # for form, note this is @comment, not @comments
     @comment ||= Comment.new
