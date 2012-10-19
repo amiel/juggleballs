@@ -7,10 +7,10 @@ class Step
   ABSOLUTE_DIR = "#{RAILS_ROOT}/public/images/steps"
   RELATIVE_DIR = "steps"
   WEB_DIR = "/images/#{RELATIVE_DIR}"
-  
+
   # for file matching, only to include numbers
   IS_STEP = 'step_[0-9][0-9][0-9_.]*jpg' # include step_01 but not step_04b
-  
+
   # for regex matching, this is also a broader pattern match than IS_STEP
   IS_VALID_STEP_FILE = 'step_([0-9a-z_]+).jpg'
 
@@ -35,17 +35,17 @@ class Step
   def self.first
     Step.new(img_list.first)
   end
-  
+
   def self.next(step)
     a = img_list
     Step.new(a[a.index(Step.new(step).file)+1]).to_param
   end
-  
+
   def self.prev(step)
     a = img_list
     Step.new(a[a.index(Step.new(step).file)-1]).to_param
   end
-  
+
   def self.img_list
     return @@img_list if @@img_list
     Dir.chdir(File.join(ABSOLUTE_DIR,"orig")) do
@@ -68,22 +68,22 @@ class Step
   def fix_step(s)
     (s.gsub("_",".").to_f < 10 && !(s[0,1] == "0")) ? "0#{s}" : s.to_s
   end
-  
+
   # reader for @step
   def step
     @step
   end
-  
+
   def to_i
     (@step[0,1] == "0") ? @step[1..-1].gsub("_",".") : @step
   end
-  
+
   def to_param
     (@step[0,1] == "0") ? @step[1..-1] : @step
   end
-  
+
   # pre:
-  # arg must be one of 
+  # arg must be one of
   # => a String with the filename (which is a valid step file, ie "step_04.jpg")
   # => or a step number, see note in instance_variable above
   def initialize(arg)
@@ -95,7 +95,7 @@ class Step
       @file = "step_#{@step}.jpg"
     end
   end
-  
+
 
   attr_reader :file
 
@@ -115,7 +115,7 @@ class Step
 
   def tag_opts(options = {})
     image_setup
-    
+
 # , :size => "#{@width}x#{@height}"
     default_options = { :id => "step_#{@step}_pic", :alt => "Image for step #{to_i}. We appologize to anyone who cannot see these images, we may have more descriptive text here in the future." }
     options = default_options.merge options
@@ -126,7 +126,7 @@ class Step
   end
 
   def image_setup
-		return # now RMagick for you
+    return # no RMagick for you
     if self.has_image?
       calculate_image_size
     else
@@ -143,9 +143,9 @@ class Step
     end
   end
 
-  # 
+  #
   # THIS IS REALLY SLOW
-  # NOTE: no need to call calculate_image_size becuase 
+  # NOTE: no need to call calculate_image_size becuase
   # resize_image_to_fit sets @width and @height
   private
   def resize_image_to_fit(width, height)
