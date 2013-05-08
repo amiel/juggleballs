@@ -29,10 +29,7 @@ class StepsController < ApplicationController
   def links # I know its not really a step, but it still has nice pretty url
     @title = "Links -- Juggle Ball Pattern"
     @links = {
-      'http://www.twjc.co.uk/doc007.html' => 'How to make easier and cheaper balls.',
-      'http://www.jugglingisasnap.org'    => 'Learn to Juggle at Juggling Is A Snap!',
-      'http://www.jugglingpoet.com/crju/' => 'More beanbags, balloon balls, and nice juggling tutorials.',
-
+      'http://www.twjc.co.uk/howtomakejugglingballs.html' => 'How to make easier and cheaper balls.',
     }
   end
 end
