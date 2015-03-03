@@ -1,41 +1,18 @@
 
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES * * */
+var disqus_shortname = 'juggleballs';
 
-<% form_for :comment, @comment, :url => {:action => 'create'}, :html => { :id => 'comment', :multipart => true } do |f| -%>
-	<h1>Post a comment</h1>
-
-	<%= error_messages @comment %>
-
-	<div><label for="comment_author">My name is: </label><%= f.text_field :author, :size => 20 %></div>
-		<div><label for="comment_captcha">two plus two is: <%= f.text_field :captcha, :size => 3 %></label></div>
-	<!--<div><label for="comment_completed">And I have made <%= f.text_field :completed, :size => 3 %> juggling balls.</label></div>-->
-	<!-- <div id='photo_upload'><%= link_to_remote 'click here if you want to share a picture of your juggling ball', :update => 'photo_upload', :url => {:action => 'photo_upload'} %></div> -->
-		<div><label for="comment_author">Post Title: </label><%= f.text_field :title, :size => 20 %></div>
-	<div><label for="comment_body">Type your message here:</label><br />
-	<%= f.text_area :body, :rows => 8, :cols => 30 %></div>
-	<div><%= submit_tag 'Post Comment' %></div>
-<% end -%>
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 
-<h1>Listing comments</h1>
-<div id="comments">
-<% @comments.each do |c| -%>
-	<div class="post_body" style='clear: right;'>
-		<%- if c.photo -%>
-			<%= link_to image_tag(c.photo.public_filename('thumb'), :style => 'float: right; border: 0;'), :action => 'show', :id => c %>
-		<%- end -%>
-		<h2 class="post_body_top"><%= strip_tags c.title %></h2>
-		<div class='post_body_bottom'>
-			<%=simple_format auto_link strip_links sanitize c.body %>
-		</div>
-	</div>
-	<div class="posted">
-		<span class="completed"><%= c.completed %></span>
-		<span class="author"><%=strip_tags c.author %></span><span class="time_ago">, <%= time_ago_in_words(c.created_at) %> ago</span>
-
-	</div>
-<% end -%>
-
-
-</div>
 
 <div style="clear: both;">&nbsp;</div>
