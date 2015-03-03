@@ -8,10 +8,5 @@ ruby '1.9.3'
 gem 'rails', '~> 2.3.17'
 gem 'thin'
 
-group :production do
   gem 'pg'
-end
 
-group :development do
-  gem 'sqlite3'
-end
