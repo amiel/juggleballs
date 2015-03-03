@@ -1,9 +1,11 @@
 Encoding.default_external = Encoding::UTF_8
 Encoding.default_internal = Encoding::UTF_8
 
-source :rubygems
+source 'https://rubygems.org'
 
-gem 'rails', '2.3.8'
+ruby '1.9.3'
+
+gem 'rails', '~> 2.3.17'
 gem 'thin'
 
 group :production do
