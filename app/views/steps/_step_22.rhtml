@@ -1,8 +1,0 @@
-<% over = Step.new(img.step + 'b') %>
-<% over.image_setup %>
-
-<small>mouse over for a closeup</small><br />
-
-<%= javascript_tag "step_#{img.step}_over = new Image; step_#{img.step}_over.src = '#{over.href}';" %>
-<%= link_to image_tag(img.href, img.tag_opts), { :action => "step", :id => img.step }, :onmouseover => "$('step_#{img.step}_pic').src = '#{over.href}'", :onmouseout => "$('step_#{img.step}_pic').src = '#{img.href}'" %>
-
