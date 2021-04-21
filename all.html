@@ -1,0 +1,13 @@
+---
+title: All Steps
+label: view all
+next_page: comments.html
+---
+
+{% assign steps = site.steps | sort_natural: "step_name" %}
+
+{% for step in steps %}
+	{{step.content}}
+{% endfor %}
+
+
