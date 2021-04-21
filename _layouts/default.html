@@ -21,18 +21,55 @@
 <body>
 <div id="body">
 <div id="nav">
-	{% comment %}
-	TODO:
-	<!-- <%= link_to_prev %> -->
-	<!-- <%= link_to_next %> -->
 
-	<!-- <% if controller.action_name == "step" -%> -->
-		<!-- <%= link_to "view all", { :action => "all" }, :class => "right", :id => "view_all" %> -->
-	<!-- <% end -%> -->
-	<!-- <% unless controller.action_name == 'index' || controller.controller_name == 'comments' -%> -->
-		<!-- <%= link_to "Home", { :action => "index" }, :class => "top left" %> -->
-	<!-- <% end -%> -->
-	{% endcomment %}
+	{% if page.next_page %}
+		{% assign next_page = site.pages | where: "name", page.next_page | first %}
+		{% if next_page %}
+			<a href="{{next_page.url}}" class="right">{{next_page.label}} &raquo;</a>
+		{% else %}
+			<a href="{{page.next_page}}" class="right">next &raquo;</a>
+		{% endif %}
+	{% endif %}
+
+	{% if page.collection == "steps" %}
+
+		{% assign this_step = site.steps | where: "step_name", page.step_name | first %}
+
+		{% assign ordered_steps = site.steps | sort_natural: "step_name" %}
+		{% for step in ordered_steps %}
+
+		  {% if found %}
+				{% assign next_step = step %}
+			  {% break %}
+			{% endif %}
+
+			{% if step.step_name == this_step.step_name %}
+			  {% if prev_step %}
+					<a href="{{prev_step.url}}" class="left">&laquo; previous</a>
+				{% else %}
+				  <a href="/materials" class="left">&laquo; materials</a>
+				{% endif %}
+
+				{% assign found = true %}
+				{% continue %}
+			{% endif %}
+
+			{% assign prev_step = step %}
+		{% endfor %}
+
+
+		{% if next_step %}
+			<a href="{{step.url}}" class="right">next &raquo;</a>
+		{% else %}
+			<a href="/comments" class="right">comment &raquo;</a>
+		{% endif %}
+
+		<a href="/all" class="right" id="view_all">view all</a>
+	{% endif %}
+
+	{% if page.name != "index.html" %}
+		<a href="/" class="top left">Home</a>
+	{% endif %}
 
 	<div style="clear: both;"></div>
 </div>
@@ -55,7 +92,6 @@
 </div>
 <div id="footer">
 	Web Design by <a href="http://amielmartin.com">Amiel Martin</a>. Photography and ball design by the Princess of Chaos.
-	<!-- <%= link_to "site map", :controller => 'steps', :action => "site_map" %> -->
 </div>
 </div>
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">

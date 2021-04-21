@@ -1,5 +1,5 @@
 <div class="step" id="{{page.step_name}}">
-	<h2><a href="{{ page.url }}">{{ page.label }}</a></h2>
+	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
 
   <small>mouse over for a closeup</small><br />
 
@@ -13,7 +13,7 @@
 	<img
 		id="{{page.step_name}}_pic"
 		src="/assets/steps/{{page.step_name}}.jpg"
-		alt="Image for {{page.label}}"
+		alt="Image for {{page.title}}"
     onmouseover="this.src = '/assets/steps/{{page.step_name}}b.jpg'"
     onmouseout="this.src = '/assets/steps/{{page.step_name}}.jpg'"
 		/>
