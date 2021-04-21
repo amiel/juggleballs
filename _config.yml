@@ -51,7 +51,9 @@ exclude:
 
 collections:
   steps:
+    permalink: /:collection/:name
     output: true
+    sort_by: step_name
 
 defaults:
   -

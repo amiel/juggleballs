@@ -1,0 +1,23 @@
+<div class="step" id="{{page.step_name}}">
+	<h2><a href="{{ page.url }}">{{ page.label }}</a></h2>
+
+  <small>mouse over for a closeup</small><br />
+
+  <script type="text/javascript">
+		(function() {
+			var preloadImage = new Image;
+			preloadImage.src = "/assets/steps/{{page.step_name}}b.jpg";
+		})();
+  </script>
+
+	<img
+		id="{{page.step_name}}_pic"
+		src="/assets/steps/{{page.step_name}}.jpg"
+		alt="Image for {{page.label}}"
+    onmouseover="this.src = '/assets/steps/{{page.step_name}}b.jpg'"
+    onmouseout="this.src = '/assets/steps/{{page.step_name}}.jpg'"
+		/>
+</div>
+
+
+
