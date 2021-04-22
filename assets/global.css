@@ -137,3 +137,8 @@ ul#links .s {
 	height: 92px;
 	margin: 5px auto;
 }
+
+
+#disqus_thread {
+	padding: 5px 20px;
+}
