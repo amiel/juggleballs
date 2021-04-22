@@ -76,6 +76,10 @@
 <div id="content">
 	{{ content }}
 
+	{% if page.comments %}
+		{% include comments.html %}
+	{% endif %}
+
 	<div id="adsense">
 		<script type="text/javascript"><!--
 		google_ad_client = "pub-8314158678641194";

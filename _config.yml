@@ -61,3 +61,5 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+      comments: true
+
