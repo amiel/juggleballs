@@ -78,10 +78,6 @@
 <div id="content">
 	{{ content }}
 
-	{% if page.comments %}
-		{% include comments.html %}
-	{% endif %}
-
 	<div id="adsense">
 		<script type="text/javascript"><!--
 		google_ad_client = "pub-8314158678641194";
@@ -95,6 +91,11 @@
 		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 		</script>
 	</div>
+
+	{% if page.comments %}
+		{% include comments.html %}
+	{% endif %}
+
 </div>
 <div id="footer">
 	Web Design by <a href="http://amielmartin.com">Amiel Martin</a>. Photography and ball design by the Princess of Chaos.
